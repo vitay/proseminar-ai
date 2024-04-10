@@ -1,0 +1,695 @@
+---
+title: Proseminar Ausgewählte Themen der Künstlichen Intelligenz
+
+author:
+  - name: Julien Vitay 
+    email: julien.vitay@informatik.tu-chemnitz.de
+    url: https://julien-vitay.net
+    affiliation: Chemnitz University of Technology
+    affiliation-url: https://tu-chemnitz.de
+    orcid: 0000-0001-5229-2349
+
+---
+
+
+
+# Proseminar KI
+
+**Organization**
+
+* Registration on OPAL (20 places).
+
+* Choice of a topic (title with a small abstract / structured plan) until **03.05**: OPAL forum.
+
+* Presentation (15 + 5) at the end of June / beginning of July.
+
+* Small report (5-10 pages, 4 weeks preparation time).
+
+**Pedagogical goals**
+
+* Learn to build autonomously a scientific-level presentation.
+
+* Getting used to speak in public and be evaluated.
+
+* Write a scientific report.
+
+
+# AI lab of Prof Hamker
+
+:::columns
+:::column
+
+![](img/fh.png){width=40% fig-align="center"}
+
+* Head: Prof. Dr-Ing Fred Hamker
+
+* Academical staff:
+
+    * Susan Koehler (secretary)
+    * Dipl.-Math. Ralph Sontag
+    * Dr. Michael Teichmann
+    * Dr. habil. Julien Vitay
+
+
+* <https://www.tu-chemnitz.de/informatik/KI>
+
+:::
+:::column
+
+* PhD Students:
+
+    * Roghayyeh Assarzadeh
+    * Payam Atoofi
+    * Julia Bergelt
+    * Helge Ülo Dinkelbach
+    * Francesc Escudero
+    * Aida Farahani
+    * Valentin Forch
+    * René Larisch
+    * Oliver Maith
+    * Alex Schwarz
+    * Julian Thukhral
+
+* Plus many Bachelor/Master students, interns...
+
+* Don't hesitate to contact us for your internships, research seminars and theses.
+
+:::
+:::
+
+# Courses offered
+
+* **Einführung in der KI**: summer semester, Bachelor, Prof. Hamker.
+
+    * Presents the basic concepts of AI.
+
+* **Neurokognition I and II**: winter+summer semester, Master, Prof. Hamker.
+
+    * Computational neuroscience, brain modeling.
+
+* **Neurocomputing**: winter semester, Bachelor + Master, Dr. Teichmann.
+
+    * Deep learning, neural computation.
+
+* **Deep Reinforcement Learning**: winter semester, Master, Dr. Vitay.
+
+    * Reinforcement learning, robotic control, video games.
+
+* **Neurorobotik**: summer semester, Master Neurorobotik, Prof. Hamker, Dr. Vitay.
+
+    * Attention, 3D vision, reservoir computing.
+
+* Past: Maschinelles Lernen, Bildverstehen
+
+# Research: Computational Neuroscience
+
+
+* Building biologically-inspired neural networks allows to:
+
+    * help understand how the brain works.
+
+    * build more intelligent algorithms.
+
+:::columns
+::: {.column width=55%}
+
+
+![](img/neurocomp.png)
+
+:::
+::: {.column width=45%}
+
+Many brain areas are investigated:
+
+* Visual attention (visual and inferotemporal cortex).
+
+* Spatial perception (parietal cortex).
+
+* Long-term memory, navigation (hippocampus).
+
+* Decision-making, reinforcement learning (basal ganglia).
+
+* Motor control, agency (cerebellum).
+
+:::
+:::
+
+
+# Research: Virtual Reality
+
+![](img/vr.png)
+
+
+# Research: Deep Learning
+
+* Classical neural networks with application to facial expression recognition, cyber-security, automated driving, FEM simulations.
+
+:::columns
+:::column
+
+![](img/karoprod1.png){width=60%  fig-align="center"}
+
+:::
+:::column
+
+![](img/karoprod2.png){width=50% fig-align="center"}
+
+:::
+:::
+
+* Contact: Dr. Michael Teichmann <michael.teichmann@informatik.tu-chemnitz.de>
+
+# Research: Parallel Computing
+
+* **ANNarchy**: Artificial Neural Networks architect.
+
+<https://bitbucket.org/annarchy/annarchy>
+
+* Parallel simulation of biologically realistic neural networks with OpenMP, MPI, CUDA...
+
+:::columns
+:::column
+
+![](img/neuralnetwork.svg)
+
+:::
+:::column
+
+![](img/izhikevich.png)
+
+:::
+:::
+
+* Contact: Helge Ülo Dinkelbach <helge-uelo.dinkelbach@informatik.tu-chemnitz.de>
+
+# Research: Neurorobotics
+
+* Several robots are available in the lab (NAO, iCub...) to validate the computational models.
+
+:::columns
+:::column
+
+![](img/nao.jpg){width=70% fig-align="center"}
+
+:::
+:::column
+
+![](img/icub.jpg){width=70% fig-align="center"}
+
+:::
+:::
+
+
+# Choice of a topic
+
+* General question: **what is intelligence?**
+
+* Hint: there is no perfect answer. Be personal and original.
+
+* See:
+
+    * the first AI lecture for a discussion on AI:
+    
+    <https://www.tu-chemnitz.de/informatik/KI/edu/ki/ss2021/KI_01_Einleitung.pdf>
+
+    * the first of Neurocomputing for applications:
+
+    <https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing/notes>
+
+    * as well as deep RL:
+
+    <https://www.tu-chemnitz.de/informatik/KI/edu/deeprl/notes>
+
+* Online resources like <https://medium.com> can provide you with initial ideas.
+
+
+* Address the question through an example of method / algorithm / application, or through philosophical / cultural aspects.
+
+* The best would be to base your presentation on one or several research papers. Avoid vague overviews of a field with only web resources.
+
+* The topic **MUST** contain a technical aspect and (at least) conclude on intelligence.
+
+* You have about a month to choose a topic. Start a thread on the forum ASAP so we can discuss it, or send me an email. 
+
+
+
+# Artificial Intelligence, Machine Learning, Deep Learning
+
+::: {.columns}
+::: {.column width="50%"}
+
+![Source: <https://data-science-blog.com/blog/2018/05/14/machine-learning-vs-deep-learning-wo-liegt-der-unterschied>](img/aimldl.png)
+
+
+:::
+::: {.column width="50%"}
+
+* The term **Artificial Intelligence** was coined by John McCarthy at the Dartmouth Summer Research Project on Artificial Intelligence in **1956**.
+
+> The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.
+
+* **Good old-fashion AI** approaches (GOFAI) were purely symbolic (logical systems, knowledge-based systems) or using linear neural networks.
+
+* They were able to play checkers, prove mathematical theorems, make simple conversations (ELIZA), translate languages...
+
+:::
+:::
+
+
+
+# Artificial Intelligence, Machine Learning, Deep Learning
+
+::: {.columns}
+::: {.column width="50%"}
+
+![Source: <https://data-science-blog.com/blog/2018/05/14/machine-learning-vs-deep-learning-wo-liegt-der-unterschied>](img/aimldl.png)
+
+:::
+::: {.column width="50%"}
+
+* **Machine learning** (ML) is a branch of AI that focuses on learning from examples (data-driven).
+
+* ML algorithms include:
+
+    * Neural Networks (multi-layer perceptrons)
+
+    * Statistical analysis (Bayesian modeling, PCA)
+
+    * Clustering algorithms (k-means, GMM, spectral clustering)
+
+    * Support vector machines
+
+    * Decision trees, random forests
+
+* Other names: big data, data science, operational research, pattern recognition...
+
+:::
+:::
+
+
+# Artificial Intelligence, Machine Learning, Deep Learning
+
+::: {.columns}
+::: {.column width="50%"}
+
+![Source: <https://data-science-blog.com/blog/2018/05/14/machine-learning-vs-deep-learning-wo-liegt-der-unterschied>](img/aimldl.png)
+
+:::
+::: {.column width="50%"}
+
+* **Deep Learning** is a recent re-branding of neural networks.
+
+* Deep learning focuses on learning high-level representations of the data, using:
+
+    * Deep neural networks (DNN)
+
+    * Convolutional neural networks (CNN)
+
+    * Recurrent neural networks (RNN)
+
+    * Generative models (GAN, VAE)
+
+    * Deep reinforcement learning (DQN, PPO, AlphaGo)
+
+    * Transformers (ChatGPT)
+
+    * Graph neural networks
+
+:::
+:::
+
+
+# AI hypes and AI winters
+
+![](img/nn-history.svg){fig-align="center"}
+
+
+# Classification of ML techniques
+
+::: {.columns}
+::: {.column width=40%}
+
+* **Supervised learning**: The program is trained on a pre-defined set of training examples and used to make correct predictions when given new data.
+
+* **Unsupervised learning**: The program is given a bunch of data and must find patterns and relationships therein.
+
+* **Reinforcement learning**: The program explores its environment by producing actions and receiving rewards.
+
+But also:
+
+* Self-supervised learning, self-taught learning, developmental learning...
+
+:::
+::: {.column width=60%}
+
+![Source: <http://www.isaziconsulting.co.za/machinelearning.html>](img/ml-areas.png)
+
+:::
+:::
+
+
+# ImageNet challenge
+
+::: {.columns}
+::: {.column width="50%"}
+
+The ImageNet challenge was a benchmark created in 2010 for computer vision algorithms, providing millions of annotated images for object recognition, detection and segmentation.
+
+**Object recognition**
+
+![](img/imagenet-classes.png){fig-align="center"}
+
+:::
+::: {.column width="50%"}
+
+**Object detection**
+
+![](img/imagenet-localization.png){width=80% fig-align="center"}
+
+**Object segmentation**
+
+![](img/imagenet-segmentation.png){width=60% fig-align="center"}
+
+:::
+:::
+
+::: footer
+<https://image-net.org/>
+:::
+
+# AlexNet started the deep learning revolution
+
+::: {.columns}
+::: {.column width="50%"}
+
+![](img/imagenet-result.png){fig-align="center"}
+
+:::
+::: {.column width="50%"}
+
+* Classical computer vision methods obtained moderate results, with error rates around 30%.
+
+* In 2012, Alex Krizhevsky, Ilya Sutskever and Geoffrey E. Hinton (Uni Toronto) used a convolutional neural network (**AlexNet**) without any preprocessing, using directly images as inputs.
+
+* To the big surprise of everybody, they won with an error rate of 15%, half of what other methods could achieve.
+
+* Since then, everybody uses deep neural networks for object recognition.
+
+* The deep learning hype had just begun...
+
+:::
+:::
+
+::: footer
+Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. NIPS.
+:::
+
+
+# Object detection
+
+
+{{< youtube MPU2HistivI >}}
+
+
+::: footer 
+<https://pjreddie.com/darknet/yolo/>
+:::
+
+
+# Semantic segmentation
+
+{{< youtube OOT3UIXZztE >}}
+
+::: footer 
+<https://youtu.be/OOT3UIXZztE>
+:::
+
+# Dave2 : NVIDIA's self-driving car
+
+::: {.columns}
+::: {.column width="35%"}
+
+![](img/dave2-cnn.png)
+
+:::
+::: {.column width="65%"}
+
+* NVIDIA trained a CNN to reproduce wheel steerings from experienced drivers using only a front camera.
+
+* After training, the CNN took control of the car.
+
+![](img/dave2-training.png){width=100%}
+
+:::
+:::
+
+::: footer  
+M Bojarski, D Del Testa, D Dworakowski, B Firner (2016). End to end learning for self-driving cars. arXiv:1604.07316
+:::
+
+# Dave2 : NVIDIA's self-driving car
+
+
+{{< youtube qhUvQiKec2U >}}
+
+::: footer 
+<https://youtu.be/qhUvQiKec2U>
+:::
+
+# Facial recognition
+
+![](img/deepface.png){fig-align="center"}
+
+::: {.columns}
+::: {.column width="40%"}
+
+![](img/facebook.jpg)
+
+:::
+::: {.column width="50%"}
+
+* Facebook used 4.4 million annotated faces from 4030 users to train **DeepFace**.
+
+* Accuracy of 97.35% for recognizing faces, on par with humans.
+
+* Used now to recognize new faces from single examples (transfer learning, one-shot learning).
+
+* Used in massive video-surveillance: ethical problems.
+
+:::
+:::
+
+::: footer 
+Taigman, Yang, Ranzato, Wolf (2014), "DeepFace: Closing the Gap to Human-Level Performance in Face Verification". CVPR.
+:::
+
+
+# DeepFakes
+
+{{< youtube JbzVhzNaTdI >}}
+
+::: footer
+<https://github.com/iperov/DeepFaceLab> <https://youtu.be/JbzVhzNaTdI>
+:::
+
+
+# Deep Reinforcement Learning
+
+::: {.columns}
+::: {.column width="50%"}
+
+![](img/rl-loop.png)
+
+:::
+::: {.column width="50%"}
+
+* **Supervised learning** allows to learn complex input/output mappings, given there is enough data.
+
+* Sometimes we do not know the correct output, only whether the proposed output is correct or not (*partial feedback*).
+
+* **Reinforcement Learning** (RL) can be used to learn by **trial and error** an optimal policy $\pi(s,a)$.
+
+* Each action (=output) is associated to a **reward**.
+
+* The goal of the system is to find a policy that maximizes the sum of the rewards on the **long-term** (return).
+
+$$
+    R(s_t, a_t) = \sum_{k=0}^\infty \gamma^k\, r_{t+k+1}
+$$
+
+:::
+:::
+
+* See the deep reinforcement learning course:
+
+<https://www.tu-chemnitz.de/informatik/KI/edu/deeprl/>
+
+
+
+::: footer
+Sutton and Barto (1998). Reinforcement Learning: An Introduction. MIT Press. <http://incompleteideas.net/sutton/book/the-book.html>
+:::
+
+# DQN : learning to play Atari games
+
+
+{{< youtube rQIShnTz1kU >}}
+
+
+::: footer
+Mnih et al. (2015). Playing Atari with Deep Reinforcement Learning. NIPS. <https://www.youtu.be/rQIShnTz1kU>
+:::
+
+# AlphaStar : learning to play Starcraft II
+
+![<https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/>](img/alphastar.gif){width=100%}
+
+
+# Google Deepmind  - AlphaGo
+
+::: {.columns}
+::: {.column width="40%"}
+
+![](img/alphazero.jpg)
+
+:::
+::: {.column width="60%"}
+
+![](img/google-deepmind-go.jpg)
+
+:::
+:::
+
+
+* In 2015, Google Deepmind surprised everyone by publishing **AlphaGo**, a Go AI able to beat the world's best players, including **Lee Sedol** in 2016, 19 times world champion.
+
+* The RL agent discovers new strategies by using self-play: during the games against Lee Sedol, it was able to use **novel** moves which were never played before and surprised its opponent.
+
+* The new version **AlphaZero** also plays chess and sokoban at the master level.
+
+::: footer 
+David Silver et al. (2016). Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587):484–489, arXiv:1712.01815.
+:::
+
+
+# Parkour
+
+{{< youtube faDKMMwOS2Q >}}
+
+::: footer
+<https://youtu.be/faDKMMwOS2Q>
+:::
+
+# Dexterity
+
+
+{{< youtube jwSbzNHGflM >}}
+
+::: footer
+<https://youtu.be/jwSbzNHGflM>
+:::
+
+
+# Autonomous driving
+
+{{< youtube eRwTbRtnT1I >}}
+
+
+::: footer 
+<https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning> -  <https://youtu.be/eRwTbRtnT1I>
+:::
+
+
+
+# Generative AI
+
+* The most recent trend is **generative AI**, a set of self-supervised methods learning to generate new data from huge amounts of examples.
+
+:::::: {.columns}
+::: {.column}
+
+![](img/midjourney.png)
+
+:::
+::: {.column}
+
+* Image generation from text: Midjourney, Dall-E...
+
+* Text generation / understanding / interaction:  ChatGPT, Bard...
+
+* Video generation: Synthesia...
+
+* Music generation: Mubert, Loudly...
+
+:::
+:::
+
+
+# Examples (not a list of topics!)
+
+**Methods**
+
+* Symbolic AI vs. neural networks.
+
+* Can a system be intelligent without learning abilities?
+
+* Deep learning. Why is it so hot nowadays? Does it really lead to intelligent systems (weak/strong AI)? Where are the limits?
+
+* Deep reinforcement learning: application to video games or robotics.
+
+**Neuroscience and AI**
+
+* Is it possible to build an intelligent system that is not similar to a brain?
+
+* Can neuroscience help AI, AI help neuroscience or both?
+
+* Can an intelligent system be conscious?
+
+* Brain-hacking, augmented humanity / transhumanity.
+
+# Examples (not a list of subjects!)
+
+**Applications**
+
+* Expert systems (medical diagnostic, decision-making)
+
+* Autonomous cars, robotics.
+
+* Personal assistants (chat-bots, robotic companions, e-teaching)
+
+* (Video-) games (AlphaGo, Poker, Starcraft), neural art.
+
+**Philosophy / Ethics**
+
+* How to recognize that a system is intelligent?
+
+* Fear of AI, singularity: is it reasonable?
+
+* Do we need ethical committees for AI?
+
+* What is needed for robotic companions to be accepted as intelligent (social robotics, uncanny valley)?
+
+* Generative AI and copyright infringement.
+
+* Representation of AI in popular culture (books, movies: Blade Runner, Ghost in the Shell...). What is realistic, what is not?
+
+# Forbiden topics
+
+* AI inside video games.
+
+    * There is **no** information available about the AI used in video games.
+
+    * AIs playing video games (AlphaGo, AlphaStar, etc) are fine though.
+
+* Overview of AI applications in a particular field.
+
+    * AI and the_field_I_studied_before_my_Master_IGS
+
+
+# Summary
+
+* Choose a topic that motivates you, even if you do not have much background in AI.
+
+* Be creative and have fun!
+
+* Instructions/guidelines about how to make a presentation and format the report can be found on OPAL.

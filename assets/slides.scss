@@ -1,0 +1,119 @@
+/*-- scss:defaults --*/
+
+// fonts
+/*
+Note: This theme uses the Roboto font family, which it imports from Google
+  Fonts to ensure consistent weighting in addition to availability. While
+  you can use a local installation of Roboto, this is generally not 
+  recommended since the weighting will likely be wrong (probably too
+  light). OTOH, importing from Google Fonts can cause some issues in
+  certain secure environments due the external CDN (see:
+  https://github.com/grantmcdermott/quarto-revealjs-clean/issues/7). If
+  that's the case for you, simply comment out the `@import url(...)` line
+  below and it will default for the default Sans Serif font on your system
+  (e.g., Helvetica on a Mac). Circling back to the earlier point about
+  preserving consistent font weights, you may also wish to remove "Roboto"
+  from the choice set if the family is installed locally.
+*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i);*/
+$font-family-sans-serif: "Roboto", sans-serif !default;
+$presentation-heading-font: "Roboto", sans-serif !default;
+$presentation-font-size-root: 30px;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #005F50 !default;
+$code-color: #005F50 !default;
+$selection-bg: #26351c !default;
+
+$accent: #005F50;
+$jet: #131516;
+$right-arrow: "\2192"; // Unicode character for right arrow
+
+// headings 
+$presentation-heading-color: #333 !default;
+$presentation-h1-font-size:	1.5em;
+$presentation-h2-font-size:	1.5em;
+$presentation-h3-font-size:	1.2em;
+$presentation-h4-font-size:	1em;
+
+// code
+$code-font-size: 0.8em;
+$code-block-font-size: 0.8em;
+$code-block-border-color: #fff;
+
+
+/*-- scss:rules --*/
+#title-slide {
+    text-align: center;
+  
+    .title {
+      padding-top: 5em;
+      color: $body-color;
+      font-size: 1.4em;
+      font-weight: bolder;
+    }
+  
+    .subtitle {
+      color: $jet;
+      font-style: italic;
+      margin-top: 1em;
+    }
+  
+    .institute,
+    .quarto-title-affiliation,
+    .quarto-title-author-email {
+      margin-top: 1em;
+      font-size: 90%;
+      // color: #7F7F7F;
+    }
+  
+    .author,
+    .quarto-title-author-name {
+      color: $jet;
+      font-weight: bold;
+    }
+
+    .quarto-title-author-email {
+        color: $accent;
+    }
+  
+    .quarto-title-authors {
+      display: flex;
+      justify-content: left;
+  
+      .quarto-title-author {
+        padding-left: 0em;
+        padding-right: 0em;
+        width: 100%;
+      }
+    }
+  
+  }
+
+// cursor
+.cursor-dot,.cursor-dot-outline{
+    pointer-events:none;
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    opacity:0;
+    transform:translate(-50%,-50%);
+    transition:opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+.cursor-dot{
+    width:32px;
+    height:32px;
+    background-color:red;
+    z-index:1;
+}
+.no-cursor{cursor:none;}
+.no-cursor a,.no-cursor div,.no-cursor span{cursor:none;}
+
+// references
+.csl-entry {
+    font-size: 1.2em;
+}
